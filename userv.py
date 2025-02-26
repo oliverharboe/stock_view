@@ -116,7 +116,7 @@ class UserView:
         info_frame.pack(fill=X, pady=5)
         
         # Ticker kode
-        Label(info_frame, text=f"Ticker: {self.current_stock.get('name')}", anchor="w").pack(fill=X, pady=2)
+        Label(info_frame, text=f"Aktie: {self.current_stock.get('name')}", anchor="w").pack(fill=X, pady=2)
 
         # Tid
         Label(info_frame, text=f"Tid: {self.current_stock.get('time')}", anchor="w").pack(fill=X, pady=2)
